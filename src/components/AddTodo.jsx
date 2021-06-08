@@ -16,9 +16,7 @@ class AddTodo extends Component {
             <form onSubmit={this.onSubmit} >
                 <input type="text" name="title" placeholder="Enter a task here..." value={this.state.title} onChange={this.onChange}/>
                 <input type="submit" value="Add" className="btn"/>
-                
-            </form>
-            
+                </form>
          );
     }
 }

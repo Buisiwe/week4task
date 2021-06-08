@@ -8,7 +8,6 @@ function Header() {
         </header>
     )
 }
-
 const headerStyle = {
     background: '#7e57c2',
     color: '#ffffff',
